@@ -1,6 +1,6 @@
-# pycololight
+# pycololighto
 
-A Python3 wrapper for interacting with LifeSmart Cololight.
+A Python3 wrapper for interacting with LifeSmart Cololight, forked from BazaJayGee66 with some tweaks.
 
 Supports the following cololight devices:
 
@@ -10,7 +10,7 @@ Supports the following cololight devices:
 ## Usage
 
 ```python
-from pycololight import PyCololight
+from pycololighto import PyCololight
 
 # Setup hexagon device
 light = PyCololight(device="hexagon", host="1.1.1.1")
