@@ -1,11 +1,11 @@
 [tool.poetry]
-authors = ["BazaJayGee66"]
-description = "A Python3 wrapper for interacting with LifeSmart Cololight"
+authors = ["BazaJayGee66", "0mni"]
+description = "A Python3 wrapper for interacting with LifeSmart Cololight, forked from BazaJayGee66 with some tweaks"
 include = ["CHANGELOG.md"]
 license = "MIT"
-name = "pycololight"
+name = "pycololighto"
 readme = "README.md"
-repository = "https://github.com/BazaJayGee66/pycololight"
+repository = "https://github.com/leoyesaulov/pycololight"
 version = "2.1.0"
 
 [tool.poetry.dependencies]

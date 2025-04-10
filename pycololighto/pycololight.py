@@ -109,7 +109,6 @@ class PyCololight:
 
         return config
 
-    @property
     def state(self):
         """
         Gets state (on/off) and brightness from device, and updates local state.
@@ -124,6 +123,7 @@ class PyCololight:
             self._brightness = data[41]
         elif data[40] == 206:
             self._on = False
+            self._brightness = 0
         else:
             return
 
