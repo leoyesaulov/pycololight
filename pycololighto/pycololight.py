@@ -1,6 +1,6 @@
 import socket
 
-from pycololight.effects import Effects
+from pycololighto.effects import Effects
 
 from .constants import (
     COMMAND_PREFIX,
